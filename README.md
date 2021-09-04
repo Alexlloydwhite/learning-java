@@ -1,1 +1,4 @@
-# learning-java
+# Learning Java
+
+Java basics tutorial. 
+
