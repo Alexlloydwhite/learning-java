@@ -1,6 +1,9 @@
 package com.company;
 
 import java.awt.*;
+import java.text.FieldPosition;
+import java.text.NumberFormat;
+import java.text.ParsePosition;
 import java.util.Date;
 
 public class Main {
@@ -60,6 +63,10 @@ public class Main {
         System.out.println(result5);
         int result6 = (int) (Math.random() * 10000);
         System.out.println(result6);
+
+        // Formatting numbers
+        String result7 = NumberFormat.getPercentInstance().format(0.1);
+        System.out.println(result7);
     }
 
 }
