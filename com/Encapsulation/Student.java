@@ -5,6 +5,8 @@ package com.Encapsulation;
 // Encapsulation is creating a set method and get method, because the variables are private.
 // This makes it more simple for the user.
 
+// Getters and Setters = encapsulation!
+
 public class Student {
 
     private String name;
