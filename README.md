@@ -1,4 +1,4 @@
 # Learning Java
 
-Java basics tutorial. 
+following along Java basics & Intermediate tutorials. 
 
