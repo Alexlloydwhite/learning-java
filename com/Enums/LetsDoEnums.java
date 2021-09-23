@@ -1,26 +1,27 @@
 package com.Enums;
 
-enum Level {
-    LOW, MEDIUM, HIGH;
-}
-
 public class LetsDoEnums {
 
-    public static void main(String[] args) {
+    enum Flavor {
+        CHOCOLATE, VANILLA, STRAWBERRY;
 
-        Level l = Level.LOW;
-
-        switch(l) {
-            case LOW:
-                System.out.println("Low level");
-                break;
-            case MEDIUM:
-                System.out.println("Medium level");
-                break;
-            case HIGH:
-                System.out.println("High level");
-                break;
+        public static void getVanilla() {
+            System.out.println(Flavor.VANILLA);
         }
+    }
+
+    public static void main(String[] args) {
+        Flavor flav = Flavor.VANILLA;
+        flav.getVanilla();
+
+        if(flav == flav.VANILLA) {
+            System.out.println("It's Vanilla");
+        } else if (flav == flav.CHOCOLATE) {
+            System.out.println("It's Chocolate");
+        } else if (flav == flav.STRAWBERRY) {
+            System.out.println("It's Strawberry");
+        }
+
     }
 
 }
