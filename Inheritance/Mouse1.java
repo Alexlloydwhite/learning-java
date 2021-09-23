@@ -1,6 +1,6 @@
 package Inheritance;
 
-public class Mouse1 extends Mouse{
+public class Mouse1 extends Mouse {
     String texture = "Matte";
 
     public static void setColor(String color) {
