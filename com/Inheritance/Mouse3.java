@@ -1,4 +1,4 @@
-package Inheritance;
+package com.Inheritance;
 
 public class Mouse3 extends Mouse {
 
