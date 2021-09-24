@@ -10,4 +10,5 @@ public class Shoe {
         this.size = size;
     }
 
+    public void display() {}
 }
