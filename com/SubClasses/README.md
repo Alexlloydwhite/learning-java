@@ -17,3 +17,21 @@ This class shall work exactly like the Walking subclass but the instance variabl
 | Nike  | 43   |          | 250    |
 | Hanwag| 43.5 | Yes      |        |
 | Merrel| 42   | No       |        |
+
+5) Store the three objects in an array.
+
+6) Use a loop and the array to print all the information about the three pair of shoes using a toString method.
+The Information shall be printed using the following format: 
+
+Nike size 43.0 250 grams / shoe
+Hanwag size 43.5 Gore-Tex
+Merrel size 42.0 No Gore-Tex
+
+7) It is very important that the output is formatted correctly.
+
+<b>The program must use at least:</b>
+- Four classes (the main class + three other)
+- The final keyword
+- An array
+- A loop
+- The instanceof keyword
