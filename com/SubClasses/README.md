@@ -23,9 +23,9 @@ This class shall work exactly like the Walking subclass but the instance variabl
 6) Use a loop and the array to print all the information about the three pair of shoes using a toString method.
 The Information shall be printed using the following format: 
 
-Nike size 43.0 250 grams / shoe
-Hanwag size 43.5 Gore-Tex
-Merrel size 42.0 No Gore-Tex
+Nike size 43.0 250 grams / shoe <br />
+Hanwag size 43.5 Gore-Tex <br />
+Merrel size 42.0 No Gore-Tex <br />
 
 7) It is very important that the output is formatted correctly.
 
