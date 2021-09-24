@@ -11,3 +11,9 @@ The constructor shall also take the parameters necessary to call the constructor
 This class shall work exactly like the Walking subclass but the instance variable shall be name weight and be a double.
 
 4) Create three pair of shoes in the main method, two pairs of walking shoes and one pair of running shoes. Make sure the objects store the following data...
+
+| Brand | Size | Gore-Tex | Weight |
+|-------|------|----------|--------|
+| Nike  | 43   |          | 250    |
+| Hanwag| 43.5 | Yes      |        |
+| Merrel| 42   | No       |        |
